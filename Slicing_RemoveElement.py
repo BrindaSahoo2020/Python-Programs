@@ -1,7 +1,7 @@
 #Python program to remove multiple elements from a list using slice operation
 
 #Sample Input
-'''Remove 1st to 5th elemnt'''
+'''Remove 1st to 5th element'''
 #Sample Output
 '''After removal of elements from index 1 to 5 : [10, 23, 45, 67, 22, 20, 4, 45]'''
 
