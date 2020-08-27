@@ -1,5 +1,14 @@
 #Find the maximum occurring character in given String
 
+#SampleInput
+#str1 = "I am going to merge four programs here"
+#Sample Output
+'''
+{'I': 1, 'a': 2, 'm': 3, 'g': 4, 'o': 4, 'i': 1, 'n': 1, 't': 1, 'e': 4, 'r': 5, 'f': 1, 'u': 1, 'p': 1, 's': 1, 'h': 1}
+Maximum occurring frequency is : 5
+The maximum occurring character is : r
+'''
+
 str1 = "I am going to merge four programs here"
 #step1 (remove space from string)
 for i in str1:
