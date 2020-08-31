@@ -14,4 +14,17 @@ for i in range(l) :
             L2.append(L1[i])
 print("List of duplicates are :",L2)
 
+#Alternate method
+
+L1 = [10,10,75, 21,-1,-4,-5,-1,-5,4,45, 4]
+L2 = []
+L3 =[]
+for i in L1:
+	if i not in L2:
+		L2.append(i)	
+	else:
+		L3.append(i)
+print("After removing duplicates :",L2)
+print("List of duplicates are :",L3)
+
 
