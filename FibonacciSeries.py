@@ -16,3 +16,16 @@ while count < n:
        n2 = nth
        count += 1
 print("Fibonacci sequences are :",lst)
+
+#For loop method
+
+n = 10
+n1 =0
+n2 =1
+lst = []
+for i in range(n):
+	lst.append(n1)
+	nth = n1 + n2
+	n1 =n2
+	n2 =nth
+print("Fibonacci sequences are :",lst)
