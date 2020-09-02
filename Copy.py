@@ -48,3 +48,11 @@ print("New list:", new_list)
 Old list: [[1, 1, 1], [2, 2, 2], [3, 3, 3], [4, 4, 4]]
 New list: [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
 '''
+
+l1=[2, 4, 6, 8]
+l2=[1, 2, 3]
+l1=l2
+print("l2 :",l2)
+
+#Output
+#l2 : [1, 2, 3] (Shallow copy)
