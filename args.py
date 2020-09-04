@@ -27,3 +27,23 @@ def add(*num):
 
 add(3,5)
 add(4,5,6,7,9,0)
+
+#Output
+'''
+I
+am
+new
+to
+python
+1
+2
+3
+4
+5
+First argument is : ab
+cd
+ef
+gh
+Sum: 8
+Sum: 31
+'''
