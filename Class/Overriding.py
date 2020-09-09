@@ -1,3 +1,5 @@
+#Example on Over riding 
+
 class Bird:
 	species="bird"
 	def __init__(self):
@@ -31,3 +33,19 @@ obj2=Eagle()
 obj2.whoisthis()
 obj2.fly()
 obj2.swim()
+
+#Output
+
+'''
+bird is ready
+penguin is ready
+bird
+i am a penguin
+bird can swim
+penguin can run
+bird is ready
+eagle is ready
+i am an egale
+i can fly
+bird can swim
+'''
