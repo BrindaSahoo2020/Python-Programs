@@ -21,8 +21,6 @@ mapped = set(mapped)
 print(mapped)
 #Output
 '''
-[1, 2, 3, 4, 5, 6, 7]
-[1, 2, 3, 5, 6, 7]
 {('Ayushi', 2, 40), ('Nafya', 3, 40), ('Aashna', 1, 45), ('Srijitsi', 28, 42)}
 '''
 
