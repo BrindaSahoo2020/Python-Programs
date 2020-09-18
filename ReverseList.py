@@ -14,3 +14,15 @@ while l > 0 :
     l = l - 1
     L2.append(L1[-j])
 print("Reversed list is :",L2)
+
+#Alternate method
+
+L1 = ['a','b','c','d']
+l = len(L1)
+L2 = []
+for i in range(l):
+    L2.append(L1[l-1])
+    l = l-1
+print("Reversed list is :",L2)
+
+#Output (Reversed list is : ['d', 'c', 'b', 'a'])
