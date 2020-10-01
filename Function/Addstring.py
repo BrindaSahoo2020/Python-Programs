@@ -22,3 +22,10 @@ a = "Hello"
 b = "World"
 c = a + " " + b
 print(c)
+
+#Example 3
+
+a = "Hello"
+b = "World"
+c = lambda a, b : a + b
+print(c(a,b))
