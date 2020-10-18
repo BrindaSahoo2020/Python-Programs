@@ -2,7 +2,7 @@
 
 #Sample Input (11,22,33,34 / 10,8,12,14)
 
-#Sample Output (1 / 2)
+#Sample Output (11 / 2)
 
 n1 = int(input("Enter 1st number : "))
 n2 = int(input("Enter 2nd number : "))
